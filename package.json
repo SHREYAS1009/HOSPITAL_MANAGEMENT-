@@ -1,19 +1,31 @@
 {
-  "name": "blog",
+  "name": "hospitalmanagement",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "async": "^3.2.0",
     "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "crypto": "^1.0.1",
     "ejs": "^3.0.1",
+    "email-templates": "^7.0.4",
     "express": "^4.17.1",
-    "express-sanitizer": "^1.0.5",
+    "express-sesssion": "^1.15.5",
+    "googleapis": "^39.2.0",
     "method-override": "^3.0.0",
-    "mongoose": "^5.9.6"
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.10",
+    "nexmo": "^2.6.0",
+    "nodemailer": "^6.4.6",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "pug": "^2.0.4"
   }
 }
